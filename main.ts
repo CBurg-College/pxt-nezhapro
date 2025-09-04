@@ -267,6 +267,18 @@ namespace NezhaPro {
         motorSpeed(Motors[MFR], Revert[MFR] ? -right : right)
     }
 
+    export function fourWheelStop() {
+        _stop(Motors[MFL])
+        _stop(Motors[MFR])
+        _stop(Motors[MRL])
+        _stop(Motors[MRR])
+    }
+
+    export function twoWheelStop() {
+        _stop(Motors[MFL])
+        _stop(Motors[MFR])
+    }
+
     // angle in degrees
     export function motorAngle(motor: Motor, rotation: Spin, angle: number, speed: number = 100): void {
         _setServoSpeed(speed)
