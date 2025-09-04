@@ -283,7 +283,7 @@ namespace NezhaPro {
     let Servos = [AnalogPin.P0, AnalogPin.P0, AnalogPin.P0, AnalogPin.P0]
 
     export function setServo(servo: Servo, port: RJPort, line: RJLine) {
-        Servos[servo] = analogPin(port, line)
+        Servos[servo] = Nezha.analogPin(port, line)
     }
 
     // angle in degrees
