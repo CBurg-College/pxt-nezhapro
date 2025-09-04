@@ -5,7 +5,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "pxt-ef-definitions": "github:CBurg-College/pxt-ef-definitions#b17496748ea808d089f8902356efe02e28f68569"
+        "pxt-ef-definitions": "github:CBurg-College/pxt-ef-definitions#6a2850e3161649297ebdb30ac370a64e3d8e5c19"
     },
     "files": [
         "main.blocks",
